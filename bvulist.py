@@ -1,4 +1,6 @@
 class bvulist(list):
+    ''' Documentation will go here! '''
+
     def prepend(self, data):
         self.insert(0, data)
 
