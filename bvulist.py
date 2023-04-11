@@ -4,7 +4,8 @@ class bvulist(list):
         self.insert(0, value)
 
     def pop_back(self):
-        return self.pop()
+        #return self.pop()
+        self.pop()
 
     def pop_front(self):
         save = self[0]
